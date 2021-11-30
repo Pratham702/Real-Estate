@@ -118,13 +118,13 @@ const form1BAH=new FormBAH({
   image:"JPEG_20210524_185319_2269773547026169050 (2).jpg"
 });
 
-// FormBAH.insertMany(form1BAH,function(err){
-//   if (err) {
-//     console.log(err);
-//   }else {
-//     console.log("success");
-//   }
-// });
+FormBAH.insertMany(form1BAH,function(err){
+  if (err) {
+    console.log(err);
+  }else {
+    console.log("success");
+  }
+});
 
 app.get("/buyahome",function(req,res){
   FormBAH.find({},function(err,foundFormsBAH){
