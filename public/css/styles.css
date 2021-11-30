@@ -1,0 +1,241 @@
+#title {
+  background-color: #5C7AEA;
+
+}
+.estate{
+  width: 100%;
+  height:auto;
+}
+
+h1 {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  color:white;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 16%;
+}
+body{
+  font-family: "Ubuntu";
+}
+/* navigation Bar */
+.navbar-brand{
+  font-size:2.5rem;
+  font-family:Ubuntu;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Monteserrat-light";
+}
+.download-button{
+  margin: 5% 4% 3% 1%;
+}
+/* title-img rotating img*/
+.title-img{
+  width:90%;
+
+}
+/* size of icons */
+
+/* features */
+h3{
+  font-family:"Ubuntu" ;
+  font-weight : bold;
+}
+.features-box{
+  text-align: center;
+  padding:5%;
+}
+#features{
+  padding: 3% 10% ;
+  background-color: white;
+
+
+}
+p{
+  color: grey;
+}
+.fa-4x{
+  color: #5C7AEA;
+  margin-bottom: 1rem;
+  }
+  .fa-4x:hover {
+color: #5C7AEA;
+  }
+  /* Testimonials section */
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+background-color: #5C7AEA;
+position: static;
+}
+.testimonials-header
+{
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  color: white;
+  font-weight: bolder;
+  margin:2rem;
+}
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+#press{
+  background-color:#5C7AEA;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.press-logo{
+width:13%;
+margin: 20px;
+}
+
+/* carousel */
+
+.carousel{
+  padding: 0 50px;
+
+}
+
+/* pricing */
+
+
+/*   pricing rent     */
+.dropbtn {
+
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  color: #5C7AEA;
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Show the dropdown menu on hover */
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+#pricing{
+  padding:10% 5%;
+  position: static;
+  text-align: center;
+  background-color: #E6E6E6;
+}
+.pricing-column{
+  padding: 3%;
+}
+h2{
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+
+  font-weight: bolder;
+}
+
+.zoom {
+
+
+  transition: transform .2s; /* Animation */
+
+}
+
+.zoom:hover {
+  transform: scale(1.05); /* (150% zoom ) */
+}
+
+@media (max-width:1024px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+  transform: rotate(0);
+}
+
+}
+#cta{
+background-color: #5C7AEA;
+padding: 10% 15%;
+text-align: center;
+}
+
+.ctahead{
+  text-align: center;
+  color: white;
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  line-height: 1.5rem;
+  font-weight: bolder;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+margin: 20px;
+}
+
+
+                                                   /* SELL */
+
+
+.sell{
+background-color: #FFF9B2;
+text-align: center;
+color: #B2B1B9;
+
+}
+.sellimg{
+ padding: 7% 10%;
+  width:100%;
+  height: 800px;
+
+}
+.form{
+  padding: 2%;
+  background-color: #B2B1B9;
+}
+ /* sign up */
