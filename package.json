@@ -165,5 +165,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "17.0.1"
+  },
   "description": ""
 }
