@@ -151,15 +151,15 @@ app.get("/property-2",function(req,res){
 // });
 
 app.get("/sellyourplace",function(req,res){
-res.render("/sellyourplace");
+res.render("sellyourplace");
 });
 
 app.get("/sell_a_home",function(req,res){
-res.render(+ "/sell_a_home");
+res.render(+ "sell_a_home");
 });
 
 app.get("/rentyourhome",function(req,res){
-res.render("/rentyourhome")
+res.render("rentyourhome")
 });
 
 app.get("/buyaplace",function(req,res){
