@@ -155,7 +155,7 @@ res.render("sellyourplace");
 });
 
 app.get("/sell_a_home",function(req,res){
-res.render(+ "sell_a_home");
+res.render("sell_a_home");
 });
 
 app.get("/rentyourhome",function(req,res){
