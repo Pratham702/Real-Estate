@@ -187,8 +187,44 @@ app.get("/property-2",function(req,res){
 res.render("property-2")
 });
 
-app.post("/rentyourhome",function(req,res){
-
+//   const Syp = new mongoose.model("Syp",formBAHSchema);
+//
+//
+//
+//
+// app.post("/sellyourplace",function(req,res){
+//   const formsyp = new Syp({
+//     Fname:req.body.Fname,
+//     Lname: req.body.Lname,
+//
+//     city:req.body.city,
+//     state:req.body.state,
+//     zip:req.body.zip,
+//     address:req.body.address,
+//     phnumber:req.body.phnumber,
+//     price:req.body.price,
+//     area:req.body.area,
+//     mail: {
+//           type: String,
+//           trim: true,
+//           lowercase: true,
+//           unique: true,
+//           required: 'Email address is required',
+//
+//           match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, 'Please fill a valid email address']
+//       },
+//     image:req.body.image1,
+//     image:req.body.image2,
+//     image:req.body.image3
+//
+//   });
+//   Syp.insertMany(formsyp,function(err){
+//     if (err) {
+//       console.log(err);
+//     }else {
+//       console.log("success");
+//     }
+//   });
 // let Firstname =req.body.Fname;
 // let Lastname = req.body.Lname;
 // let city = req.body.city;
@@ -213,7 +249,7 @@ app.post("/rentyourhome",function(req,res){
 
 
 
-});
+
 
 let port = process.env.PORT;
 if (port == null || port == "") {
