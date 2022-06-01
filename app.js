@@ -9,9 +9,7 @@ const encrypt = require("mongoose-encryption");
 const app = express();
 mongoose.connect("mongodb+srv://admin-Pratham:Test123@cluster0.isrco.mongodb.net/realestatenewDB",{useNewUrlParser:true});
 app.use(express.static("public"));
-app.use(bodyParser.urlencoded({
-  extended: true
-}));
+app.use(bodyParser.urlencoded({extended: true}));
 
 app.set('view engine', 'ejs');
 const userSchema =new mongoose.Schema ({
@@ -40,6 +38,7 @@ app.get("/",function(req,res){
 
 app.post("/register",function(req,res){
   const newUser = new User({
+
     email:req.body.username,
     password:req.body.password
   });
