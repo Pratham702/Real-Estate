@@ -4,10 +4,12 @@ const bodyParser=require("body-parser");
 const ejs = require("ejs");
 const mongoose = require("mongoose");
 const encrypt = require("mongoose-encryption");
-
-
+require('dotenv').config();
 const app = express();
-mongoose.connect("mongodb+srv://admin-Pratham:Test123@cluster0.isrco.mongodb.net/realestatenewDB",{useNewUrlParser:true});
+// console.log(process.env.DB);
+//  mongoose.connect(process.env.DB);
+  mongoose.connect( "mongodb+srv://admin-Pratham:Test123@cluster0.isrco.mongodb.net/realestatenewDB?retryWrites=true&w=majority");
+
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 
@@ -45,8 +47,9 @@ app.post("/register",function(req,res){
 newUser.save(function(err){
 if (err) {
   console.log(err);
+
 }else {
-  res.render("index");
+  res.render("login");
 }
 
 });
