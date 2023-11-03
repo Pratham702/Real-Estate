@@ -7,7 +7,7 @@ const encrypt = require("mongoose-encryption");
 require('dotenv').config();
 const app = express();
 
-  mongoose.connect(process.env.DB);
+  mongoose.connect('mongodb+srv://admin-Pratham:Test123@cluster0.isrco.mongodb.net/realestatenewDB?retryWrites=true&w=majority');
 
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
